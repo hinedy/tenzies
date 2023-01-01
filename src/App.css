@@ -1,0 +1,82 @@
+main {
+  margin: 20vh auto;
+  background-color: #f5f5f5;
+  height: 400px;
+  max-width: 800px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.title {
+  font-size: 40px;
+  margin: 0;
+  color: #2B283A;
+}
+
+.rolls {
+  position: absolute;
+  top: 0;
+  left: 5%;
+
+}
+.best {
+  position: absolute;
+  top: 0;
+  right: 5%;
+
+}
+
+.instructions {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  margin-top: 0.5em;
+  text-align: center;
+  width: 80%;
+  color: #4A4E74;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(5, 15%);
+  grid-template-rows: auto;
+  column-gap: 6.25%;
+  row-gap: 20px;
+  width: 70%;
+  height: 160px;
+
+  /* border: 1px solid red; */
+
+
+
+}
+.die{
+  color: #2B283A;
+  text-align: center;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 3.81277px; 
+  font-weight: 700;
+  cursor: pointer;
+
+}
+
+.roll-btn {
+  margin-top: 2rem;
+  padding: 10px 30px;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  background-color: #5035FF;
+  color: white;
+  font-family: 'Karla', sans-serif;
+  cursor: pointer;
+
+}
+
+.roll-btn:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
